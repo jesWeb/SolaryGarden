@@ -35,8 +35,9 @@
 }
 
 .carousel-item {
-    height: 80vh;
-    min-height: 500px
+    height: 70vh;
+    min-height: 500px;
+    object-fit: cover;
 }
 
 .nav-link {
@@ -46,6 +47,24 @@
 }
 
 
+.content-img {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+.content-img img {
+    width: 100%;
+}
+
+.celebrity {
+    margin-top: 100px;
+
+}
+
+.ft-info p {
+    color: var(--color-white);
+}
 
 @media screen and (max-width:425px) {
     .logo {
