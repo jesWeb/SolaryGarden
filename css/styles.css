@@ -9,7 +9,7 @@
 /* variables */
 :root {
     /* colores */
-    --color-white:#FFFFFF;
+    --color-white: #FFFFFF;
     --color-main: #38585F;
     --color-yellow: #FFDC00;
     --color-green: rgba(14, 169, 76, 89);
@@ -21,3 +21,36 @@
         /* fonts */
 }
 
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.carousel-item {
+    height: 80vh;
+    min-height: 500px
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #FFFFFF !important;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width:425px) {
+    .logo {
+        width: 130px;
+        height: 130px;
+        margin: 0;
+    }
+}
