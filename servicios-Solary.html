@@ -7,7 +7,7 @@
     <title>SolaryGarden</title>
     <!-- favicon -->
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/serv-styles.css">
     <!--boostrap   -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- js -->
@@ -15,65 +15,67 @@
 </head>
 
 <header>
-    <!-- nav -->
-    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
-        <div class="container mt-lg-4 ">
-            <a class="navbar-brand" href="#">
-                <div class="logo">
-                    <img src="./img/Solary-logo-blanco.png" alt="">
+    <div class="contenedor">
+        <!-- nav -->
+        <nav class="navbar navbar-expand-md navbar-light  fixed-top">
+            <div class="container mt-lg-4 ">
+                <a class="navbar-brand" href="./index.html">
+                    <div class="logo">
+                        <img src="./img/Solary-logo-blanco.png" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicios-Solary.html">Servicios</a>
+                        </li>
+                    </ul>
                 </div>
-            </a>
-            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--  -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
-                    </li>
-                </ul>
             </div>
-        </div>
 
-    </nav>
+        </nav>
+        <!-- descripcion -->
 
-
-    <!-- header-img -->
-
-
-    <!--descripcion-serv -->
-    <div class="desc-serv">
-        <h1>¡ Celebra con Nosotros ! </h1>
-        <!--servs-list -->
-        <article>
-            <ul>
-                <li>CUMPLEAÑOS</li>
-                <li>COMUNIONES</li>
-                <li>CONFIRMACIONES</li>
-            </ul>
-            <ul>
-                <li>BAUTIZOS</li>
-                <li>BABYSHOWER</li>
-                <li>FIESTAS INFANTILES</li>
-            </ul>
-        </article>
     </div>
-
 
 
 </header>
 
 
 <body>
+    <section class="aboutUs">
+        <div class="contenedor-us">
+            <article>
+                <h1>¡ Celebra con Nosotros ! </h1>
+                <!--servs-list -->
+                <div class="about-us_list m-3">
+                    <ul>
+                        <li>CUMPLEAÑOS</li>
+                        <li>COMUNIONES</li>
+                        <li>CONFIRMACIONES</li>
+                    </ul>
+                    <ul>
+                        <li>BAUTIZOS</li>
+                        <li>BABYSHOWER</li>
+                        <li>FIESTAS INFANTILES</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+
     <!--info -->
-    <section class="container">
-        <div class="">
+    <section class="info-cont mb-2">
+        <div class="text-center container">
             <article>
                 <h3>Planeando un evento perfecto para ti</h3>
                 <br>
@@ -84,8 +86,8 @@
         </div>
     </section>
     <!-- servicio de planes  -->
-    <section class="">
-        <div class="">
+    <section class="plans container-fluid ">
+        <div class="plans-ofert">
             <article>
                 <h4>contamos</h4>
                 <div class="">
@@ -101,27 +103,46 @@
                 </div>
             </article>
             <!-- section img -->
-            <div class="">
+            <div class="mt-4">
                 <div class="row">
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/200/300" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Promo-->
-    <section>
-        <div class="">
+    <section class=" promo">
+        <div class="d-flex">
+            <div class="">
 
+            </div>
         </div>
     </section>
 
 </body>
 
-<footer>
+
+<footer class="container-fluid bg-black mt-3">
+    <div class="row justify-content-center ">
+        <div class="col-12 ft-img text-center">
+            <img src="./img/Solary-logo-blanco.png" class="img-fluid" alt="SolarisGarden-Logo">
+        </div>
+        <div class="row">
+            <div class="col-12 text-center text-light ">
+                <p>© 2023 SOLARY GARDEN. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
 
 </footer>
+
 
 </html>
