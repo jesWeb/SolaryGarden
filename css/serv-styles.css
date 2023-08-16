@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* variables */
+:root {
+    /* colores */
+    --color-white: #FFFFFF;
+    --color-main: #38585F;
+    --color-yellow: #FFDC00;
+    --color-green: rgba(14, 169, 76, 89);
+    /* size */
+    --title-size: 40px;
+    --subtitle-size: 29px;
+    --descripcion-size: 18px;
+    --text-size: 16px
+        /* fonts */
+}
