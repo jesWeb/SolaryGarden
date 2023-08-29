@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- js -->
     <script type=module src="./js/main.js"></script>
+    <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 
 </head>
 <header>
-    <nav class="navbar navbar-expand-md navbar-light bg-ligth fixed-top">
+    <!-- main-nav -->
+    <nav class="navbar navbar-expand-md navbar-light bg-ligth fixed-top navpinter">
         <div class="container mt-lg-4 ">
             <a class="navbar-brand" href="#">
                 <div class="logo">
@@ -33,10 +35,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
+                        <a class="nav-link" href="./servicios-Solary.html">Servicios</a>
                     </li>
                 </ul>
             </div>
@@ -57,35 +59,39 @@
             </div>
         </div>
     </div>
-
 </header>
 
 <body>
+    <!-- content -->
     <div class="container">
-
-        <!-- descrpciom -->
-        <div class=" row mt-4  justify-content-center ">
+        <!-- descrpcion -->
+        <div class=" row  justify-content-center align-items-center">
             <!-- img -->
-            <div class="col-4">
+            <div class="col-lg-5 col-xl-4 ">
                 <div class="content-img">
-                    <img src="./img/Solary-color.png" alt="">
+                    <img src="./img/logo-solari-css.png" class="img-fluid" alt="">
                 </div>
             </div>
             <!-- descripcion -->
-            <div class="col-8 ">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi culpa magni officiis deleniti qui
-                    labore doloremque! Eaque consequatur nemo suscipit sapiente distinctio harum dignissimos adipisci
-                    ipsa veritatis ab aperiam, aliquid ducimus est accusantium natus ea ipsam sed qui vel quo. Deleniti
-                    id assumenda ut at eum suscipit voluptate tempora eaque!</p>
+            <div class="col-lg-7 col-xl-8 ">
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi culpa magni officiis deleniti
+                        qui
+                        labore doloremque! Eaque consequatur nemo suscipit sapiente distinctio harum dignissimos
+                        adipisci
+                        ipsa veritatis ab aperiam, aliquid ducimus est accusantium natus ea ipsam sed qui vel quo.
+                        Deleniti
+                        id assumenda ut at eum suscipit voluptate tempora eaque!</p>
+                </article>
             </div>
         </div>
-
-        <section class="celebrity text-center">
+        <!--servicios -->
+        <section class="celebrity text-center  mt-lg-2">
             <h4>Celebra con Nosotros</h4>
             <p>En Salón de Fiestas SOLARY te ofrecemos las instalaciones para los siguientes tipos de eventos:</p>
 
-            <div class="serv-contain">
-                <div class="container-g mt-3">
+            <div class="serv-contain bg-danger">
+                <div class="container-g mt-4 ">
                     <!-- first labeñ  -->
                     <div class="container-g_item">
                         <div class="card-item text-center">
@@ -163,46 +169,40 @@
                 </div>
                 <!-- btn -->
                 <div class="serv-btn">
-                    <a href="" class="btn"></a>
+                    <a href="./servicios-Solary.html" class="btn btn-success">Ver servicios</a>
                 </div>
             </div>
         </section>
+        <!-- social-media-->
+        <section class="media mt-lg-5 mb-lg-5">
+            <article class="media-box-t">
+                <!-- title -->
+                <h4>
+                    SÍGUENOS EN IG <br>
+                    Y HAZNOS PARTE DE LA FIESTA
+                </h4>
+            </article>
 
-        <section class="media ">
-
-            <div class="row">
-                <div class="col-md-7 media-box-t">
-                    <!-- title -->
-                    <h4>
-                        SÍGUENOS EN IG <br>
-                        Y HAZNOS PARTE DE LA FIESTA
-                    </h4>
+            <div class="row mt-3">
+                <div class="col-lg-4 text-center mb-md-3 ">
+                    <img src="./img/inta-1.png" class="img-fluid shadow-lg rounded" alt="">
                 </div>
-            </div>
-
-            <div class="mt-4">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-md-3 ">
-                        <img src="https://picsum.photos/200/300" alt="">
-                    </div>
-                    <div class="col-md-3 ">
-                        <img src="https://picsum.photos/200/300" alt="">
-                    </div>
-                    <div class="col-md-3 ">
-                        <img src="https://picsum.photos/200/300" alt="">
-                    </div>
+                <div class="col-lg-4 text-center mb-md-3  ">
+                    <img src="./img/insta-2.png" class="img-fluid shadow-lg rounded" alt="">
                 </div>
-
+                <div class="col-lg-4 text-center  ">
+                    <img src="./img/insta-3.png" class="img-fluid shadow-lg rounded" alt="">
+                </div>
             </div>
         </section>
-
     </div>
-</body>
 
-<footer class="container-fluid bg-black mt-2">
+</body>
+<!-- footer -->
+<footer class="container-fluid bg-black mt-3">
     <div class="row justify-content-center ">
         <div class="col-12 ft-img text-center">
-            <img src="./img/Solary-logo-blanco.png" class="img-fluid" alt="SolarisGarden-Logo">
+            <img src="./img/Solary-logo-blanco-2.png" class="img-fluid" alt="SolarisGarden-Logo">
         </div>
         <div class="row">
             <div class="col-12 text-center text-light ">
