@@ -1,0 +1,177 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variables */
+:root {
+    /* colores */
+    --color-white: #FFFFFF;
+    --color-main: #38585F;
+    --color-yellow: #FFDC00;
+    --color-green: rgba(14, 169, 76, 89);
+    /* size */
+    --title-size: 40px;
+    --subtitle-size: 29px;
+    --descripcion-size: 18px;
+    --text-size: 16px
+        /* fonts */
+}
+
+/*Menu*/
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.navbar {
+    height: 15vh;
+}
+
+
+.navbar-nav a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF !important;
+    margin-left: 5px;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 1px solid var(--color-white);
+
+}
+
+/*header*/
+header {
+    width: 100%;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    /* paralax */
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .contenedor {
+    position: relative;
+    height: 600px;
+}
+
+/* servs */
+.contenedor-us {
+    overflow: visible;
+    position: relative;
+
+}
+
+.contenedor-us article {
+    background-color: var(--color-white);
+    padding: 40px;
+    width: 700px;
+    position: relative;
+    top: -150px;
+    left: 80px;
+    /* float: right; */
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+}
+
+
+.contenedor-us article h1 {
+    color: var(--color-green);
+    text-align: center;
+    font-size: var(--title-size);
+    /* margin-top: 2px; */
+    margin-bottom: 5px;
+}
+
+
+.about-us_list {
+    /* background-color: #FFDC00; */
+    height: 100px;
+    text-align: center;
+
+}
+
+.about-us_list ul {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 15px !important;
+}
+
+/* descripcion */
+
+.info-cont article h3 {
+    font-size: var(--subtitle-size);
+    font-weight: 500;
+    color: var(--color-main);
+}
+
+/* plans */
+.plans {
+    /* background: url(../img/textura.jpg); */
+    background-repeat: repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.plans-ofert article {
+    width: 700px;
+    /* background-color: aquamarine; */
+}
+
+.plans-ofert article h4 {
+    font-size: var(--subtitle-size);
+    font-weight: 500;
+    color: var(--color-main);
+
+    border-bottom: 3px solid #9AD032;
+}
+
+.plans-ofert article p {
+    display: inline-block;
+    padding: 10px;
+    font-size: var(--descripcion-size);
+    font-weight: 500;
+
+    color: var(--color-main);
+}
+
+.promo {
+    background: url(../img/imagen-venta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+
+
+.promo-container article h5 {
+    font-size: var(--subtitle-size);
+    font-weight: 600;
+    color: var(--color-white);
+}
