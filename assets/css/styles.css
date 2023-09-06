@@ -18,23 +18,23 @@
     --subtitle-size: 29px;
     --descripcion-size: 18px;
     --text-size: 16px
-     /* fonts */
+        /* fonts */
 }
 
 /* nav */
-.navbar{
+.navbar {
     height: 15vh;
 }
 
-.navbar-nav a{
+.navbar-nav a {
     font-size: 18px;
     font-weight: 600;
     color: #FFFFFF !important;
     margin-left: 5px;
-} 
+}
 
-.navbar-nav a:hover{
-    border-bottom: 1px solid var(--color-white);  
+.navbar-nav a:hover {
+    border-bottom: 1px solid var(--color-white);
 }
 
 
@@ -53,13 +53,13 @@
 
 /* carousel */
 .carousel-item {
-    height: 70vh;
+    height: 50vh;
     min-height: 500px;
     object-fit: cover;
 }
 
 /* btn responsive */
-.navbar-toggler{
+.navbar-toggler {
     padding: 1px 5px;
     font-size: 18px;
     line-height: 0.3;
@@ -70,11 +70,13 @@
 /* grid */
 .serv-contain {
     height: 480px;
+    /* margin-bottom: 10px; */
 }
 
 .container-g {
     display: grid;
-    gap: 25px;
+    gap: 1rem;
+    /* grid-template-columns:repeat(auto-fill,minmax(200px,1fr)) ; */
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
@@ -89,19 +91,27 @@
     background-color: #fff;
 }
 
-.figure-caption{
+.figure-caption {
     color: #000 !important;
     font-size: var(--descripcion-size);
 }
 
+/* celebration */
+.celebrity {
+    margin-top: 2em;
+}
+
+
+
+
 
 /* badge-whtsaap */
-.btn-contact{
+.btn-contact {
     width: 80%;
     height: 80%;
 }
 
-.btn-whts{
+.btn-whts {
     position: fixed;
     width: 80px;
     height: 80px;
@@ -113,15 +123,15 @@
     border-radius: 50px;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0px 1px 10px rgba(0, 0,0, 0.5);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
     z-index: 100;
 
 }
 
-.btn-whts:hover{
-text-decoration: none;
-color:#0df053 ;
-background-color: #fff;
+.btn-whts:hover {
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
 }
 
 
@@ -133,12 +143,34 @@ background-color: #fff;
         margin: 0;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         text-align: center;
         background-color: rgba(0, 0, 0, 0.5);
         height: 300px;
     }
 
-   
+
 
 }
+
+@media screen and (max-width:768px) {
+    .container-g {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .serv-contain {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width:400) {
+    .container-g {
+        grid-template-columns: repeat(1, 25px);
+        gap: auto;
+    }
+
+    .carousel-item {
+        height: 40vh;
+    }
+}
+
