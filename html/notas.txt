@@ -1,0 +1,62 @@
+<div class="container">
+        <!--info -->
+        <section class="info-cont mb-2">
+            <div class="text-center container">
+                <article>
+                    <h3>Planeando un evento perfecto para ti</h3>
+                    <br>
+                    <p>orem ipsum dolor sit amet consectetur. Accumsan pulvinar nunc lacus tempor. Aliquam vitae arcu
+                        pharetra accumsan arcu ut magna. In purus tellus cursus arcu velit. Enim eu duis diam volutpat
+                        quis.
+                        In magnis at vivamus posuere eget quis nibh proin pharetra. Morbi tempus quam dis sit.</p>
+                </article>
+            </div>
+        </section>
+        <!-- servicio de planes  -->
+        <section class="plans ">
+            <div class="plans-ofert">
+                <article>
+                    <h4>contamos</h4>
+                    <div class="">
+                        <p>Área de juegos </p>
+                        <p>Inflables</p>
+                        <p>Baños</p>
+                        <p>Bar</p>
+                        <p>Estacionamiento</p>
+                        <br>
+                        <p>Cocina</p>
+                        <p>Jardín</p>
+                        <p>Entretenimiento</p>
+                    </div>
+                </article>
+                <!-- section img -->
+                <div class="mt-4">
+                    <div class="row">
+                        <!--  -->
+                        <figure class="col-4">
+                            <img src="https://picsum.photos/300/300" class="figure-img img-fluid rounded" alt="">
+                        </figure>
+                        <!--  -->
+                        <figure class="col-4">
+                            <img src="https://picsum.photos/300/300" class="figure-img img-fluid rounded" alt="">
+                        </figure>
+                        <!--  -->
+                        <figure class="col-4">
+                            <img src="https://picsum.photos/300/300" class="figure-img img-fluid rounded" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Promo-->
+        <section class="venta">
+
+
+        </section>
+    </div>
+    <!-- whatsaap -->
+    <a href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD" class="btn-whts" target="_blank">
+        <i class="icon-whtps">
+            <img src="/assets/img//icons/Whatsapp-ico.svg" class="btn-contact" alt="">
+        </i>
+    </a>
