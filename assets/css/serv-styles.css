@@ -124,27 +124,11 @@ header .contenedor {
     color: var(--color-main);
 }
 
-/* plans */
-.plans {
-    /* background: url(../img/textura.jpg); */
-    background-repeat: repeat;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.plans-ofert article {
-    width: 700px;
-    /* background-color: aquamarine; */
-}
-
-.plans-ofert article h4 {
+.plans-t h4 {
     font-size: var(--subtitle-size);
     font-weight: 500;
     color: var(--color-main);
-
-    border-bottom: 3px solid #9AD032;
+    /* border-bottom: 3px solid #9AD032; */
 }
 
 .plans-ofert article p {
@@ -152,26 +136,9 @@ header .contenedor {
     padding: 10px;
     font-size: var(--descripcion-size);
     font-weight: 500;
-
     color: var(--color-main);
 }
 
-/* ventas */
-/* .venta {
-    background-image: url(/assets/img/imagen-venta.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-content: end;
-} */
-
-/* .venta-desc {
-    background-color: #9AD032;
-    
-} */
 
 
 /* badge-whtsaap */
