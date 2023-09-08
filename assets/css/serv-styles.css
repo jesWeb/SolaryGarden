@@ -40,7 +40,6 @@
     height: 15vh;
 }
 
-
 .navbar-nav a {
     font-size: 18px;
     font-weight: 600;
@@ -55,7 +54,7 @@
 
 /*header*/
 header {
-    width: 100%;
+    /* width: 100%; */
     background: url(../img/bg.jpg);
     background-size: cover;
     /* paralax */
@@ -96,7 +95,6 @@ header .contenedor {
     border-radius: 5px;
 }
 
-
 .contenedor-us article h1 {
     color: var(--color-green);
     text-align: center;
@@ -104,7 +102,6 @@ header .contenedor {
     /* margin-top: 2px; */
     margin-bottom: 5px;
 }
-
 
 .about-us_list {
     text-align: center;
@@ -117,7 +114,6 @@ header .contenedor {
 }
 
 /* descripcion */
-
 .info-cont article h3 {
     font-size: var(--subtitle-size);
     font-weight: 500;
@@ -139,15 +135,48 @@ header .contenedor {
     color: var(--color-main);
 }
 
+.venta {
+    background-image: url(/assets/img/imagen-venta.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    min-height: 500px;
+}
 
+.venta-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.venta-desc h4 {
+    font-size: var(--subtitle-size);
+    color: var(--color-white);
+    font-weight: 500;
+}
+.venta-desc .btn-success{
+    background-color: #2ACF3A;
+    width: 60%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+    /* height: 50px; */
+} 
+
+.badge-wht{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
 
 /* badge-whtsaap */
-.btn-contact{
+.btn-contact {
     width: 80%;
     height: 80%;
 }
 
-.btn-whts{
+.btn-whts {
     position: fixed;
     width: 80px;
     height: 80px;
@@ -159,41 +188,41 @@ header .contenedor {
     border-radius: 50px;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0px 1px 10px rgba(0, 0,0, 0.5);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
     z-index: 100;
 
 }
 
-.btn-whts:hover{
-text-decoration: none;
-color:#0df053 ;
-background-color: #fff;
+.btn-whts:hover {
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
 }
 
 @media screen and (max-width:768px) {
-  
-    .contenedor-us article{
-        left:35px;
-    } 
+
+    .contenedor-us article {
+        left: 35px;
+    }
 
 }
 
 @media screen and (max-width:425px) {
-  
-    .contenedor-us article{
-        left:20px;
+
+    .contenedor-us article {
+        left: 20px;
         width: 90vw;
         top: -280px;
-    } 
+    }
 
 }
 
 @media screen and (max-width:320px) {
-  
-    .contenedor-us article{
-        left:15px;
+
+    .contenedor-us article {
+        left: 15px;
         width: 90vw;
         top: -280px;
-    } 
+    }
 
 }
