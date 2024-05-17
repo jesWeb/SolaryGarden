@@ -4,10 +4,13 @@ $(document).ready(function () {
         var scroll = $(window).scrollTop();
         //condition for window 
         if (scroll > 250) {
-            $(".navbar").css("background", "#5645");
+            $(".navbar").css("background", "#000");
             // $('body').css("background","")
         } else {
             $(".navbar").css("background", "transparent");
         }
     });
+
+    //animaciones 
+
 })

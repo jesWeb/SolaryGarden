@@ -22,7 +22,6 @@
 }
 
 /*Menu*/
-
 .logo {
     width: 200px;
     height: 200px;
@@ -52,6 +51,22 @@
 
 }
 
+/* btn responsive */
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: var(--color-white) !important;
+}
+
+/* contenedr navbar resp */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
 /*header*/
 header {
     /* width: 100%; */
@@ -62,6 +77,7 @@ header {
     background-position: center 0;
 }
 
+/* target-servs */
 .contenedor {
     width: 90%;
     max-width: 1000px;
@@ -89,7 +105,6 @@ header .contenedor {
     position: relative;
     top: -150px;
     left: 90px;
-    /* float: right; */
     z-index: 1;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
@@ -99,7 +114,6 @@ header .contenedor {
     color: var(--color-green);
     text-align: center;
     font-size: var(--title-size);
-    /* margin-top: 2px; */
     margin-bottom: 5px;
 }
 
@@ -109,8 +123,12 @@ header .contenedor {
 
 .about-us_list ul {
     display: inline-block;
-    margin-left: 10px;
-    padding: 15px !important;
+    list-style: none;
+    text-align: left;
+}
+
+.about-us_list ul li {
+    margin: 5px;
 }
 
 /* descripcion */
@@ -124,7 +142,6 @@ header .contenedor {
     font-size: var(--subtitle-size);
     font-weight: 500;
     color: var(--color-main);
-    /* border-bottom: 3px solid #9AD032; */
 }
 
 .plans-ofert article p {
@@ -135,12 +152,12 @@ header .contenedor {
     color: var(--color-main);
 }
 
+/*  */
 .venta {
     background-image: url(/assets/img/imagen-venta.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* width: 100vw; */
     min-height: 500px;
 }
 
@@ -157,14 +174,15 @@ header .contenedor {
     color: var(--color-white);
     font-weight: 500;
 }
-.venta-desc .btn-success{
+
+.venta-desc .btn-success {
     background-color: #2ACF3A;
     width: 60%;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
-    /* height: 50px; */
-} 
 
-.badge-wht{
+}
+
+.badge-wht {
     width: 40px;
     height: 40px;
     margin-left: 10px;
@@ -200,14 +218,13 @@ header .contenedor {
 }
 
 @media screen and (max-width:768px) {
-
     .contenedor-us article {
         left: 35px;
     }
-
 }
 
 @media screen and (max-width:425px) {
+
 
     .contenedor-us article {
         left: 20px;
@@ -215,14 +232,37 @@ header .contenedor {
         top: -280px;
     }
 
+    .contenedor-us article {
+        top: -180px;
+    }
+
+
+    .logo {
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        background-color: #000;
+        height: 70vh;
+
+    }
+
+
+
 }
 
 @media screen and (max-width:320px) {
-
     .contenedor-us article {
         left: 15px;
         width: 90vw;
         top: -280px;
     }
 
+    .contenedor-us article {
+        top: -50px;
+    }
 }
